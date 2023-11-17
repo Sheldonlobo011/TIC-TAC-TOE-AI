@@ -8,7 +8,6 @@ This project implements a Tic-Tac-Toe game with a reinforcement learning agent u
 - [How to Play](#how-to-play)
 - [Training the Agent](#training-the-agent)
 - [Playing Against the Agent](#playing-against-the-agent)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
