@@ -20,7 +20,7 @@ This project consists of a Tic-Tac-Toe game where an agent learns to make optima
 - Q-learning algorithm for the agent to learn optimal strategies.
 - Option to play against the trained agent.
 
-##HOW TO PLAY 
+## HOW TO PLAY 
 -To play the Tic-Tac-Toe game, run the following command:
 -python tic_tac_toe.py
 -Follow the on-screen instructions to make moves and play the game.
