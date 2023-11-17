@@ -5,9 +5,6 @@ This project implements a Tic-Tac-Toe game with a reinforcement learning agent u
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
 - [How to Play](#how-to-play)
 - [Training the Agent](#training-the-agent)
 - [Playing Against the Agent](#playing-against-the-agent)
@@ -23,13 +20,18 @@ This project consists of a Tic-Tac-Toe game where an agent learns to make optima
 - Q-learning algorithm for the agent to learn optimal strategies.
 - Option to play against the trained agent.
 
-## Getting Started
+##HOW TO PLAY 
+To play the Tic-Tac-Toe game, run the following command:
+python tic_tac_toe.py
+Follow the on-screen instructions to make moves and play the game.
 
-### Prerequisites
-- Python 3.x
-- NumPy library
+Training the Agent
+To train the agent by playing against itself, run the following command:
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/tic-tac-toe.git
+python tic_tac_toe.py --learn
+The agent will play 10,000 games against itself to learn optimal strategies.
+
+Playing Against the Agent
+After training the agent, you can play against it by running the following command:
+
+python tic_tac_toe.py --play
