@@ -21,17 +21,17 @@ This project consists of a Tic-Tac-Toe game where an agent learns to make optima
 - Option to play against the trained agent.
 
 ##HOW TO PLAY 
-To play the Tic-Tac-Toe game, run the following command:
-python tic_tac_toe.py
-Follow the on-screen instructions to make moves and play the game.
+-To play the Tic-Tac-Toe game, run the following command:
+-python tic_tac_toe.py
+-Follow the on-screen instructions to make moves and play the game.
 
-Training the Agent
-To train the agent by playing against itself, run the following command:
+-Training the Agent
+-To train the agent by playing against itself, run the following command:
 
-python tic_tac_toe.py --learn
-The agent will play 10,000 games against itself to learn optimal strategies.
+-python tic_tac_toe.py --learn
+-The agent will play 10,000 games against itself to learn optimal strategies.
 
-Playing Against the Agent
-After training the agent, you can play against it by running the following command:
+-Playing Against the Agent
+-After training the agent, you can play against it by running the following command:
 
-python tic_tac_toe.py --play
+-python tic_tac_toe.py --play
